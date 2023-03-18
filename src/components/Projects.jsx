@@ -1,7 +1,7 @@
-function Projects({ projectsInfos }) {
+function Projects({ projectsInfos, itemNum }) {
   return (
     <article className="projects">
-      <h2>6. {projectsInfos.field}</h2>
+      <h2>{itemNum}. {projectsInfos.field}</h2>
       {projectsInfos.content.map((projectItem, index) => (
         <div key={index} className="project-item">
           <div className="head">

@@ -1,124 +1,112 @@
 export const informations = {
   english: {
-    firstName: "Abdelkadir",
-    familyName: "Bouziane",
+    firstName: "Seyyidahmed",
+    familyName: "Bouralia",
 
     contact: {
       address: "Chlef, Algeria",
-      phone: "+213795081867",
-      email: "ga_bouziane@esi.dz",
-      github: {
-        userName: "abdelkadir-bouziane",
-        link: "https://github.com/abdelkadir-bouziane",
-      },
+      phone: "+213663905402",
+      email: "Sidoguns@gmail.com",
       linkedin: {
-        userName: "Abdelkadir Bouziane",
-        link: "https://www.linkedin.com/in/abdelkadir-bouziane-2a7a37205/",
+        userName: "Seyyidahmed Bouralia",
+        link: "https://www.linkedin.com/in/seyyidahmed-bouralia-80597b161/",
       },
     },
 
-    profile: {
-      field: "Profile",
+    objectif: {
+      field: "Objective",
       content:
-        "React JS Frontend web developer. Dynamic and motivated. Passionate about all that touches web development.",
+        "Improve my professional skills, abilities and knowledge in an organisation that recognises the value of hard work and gives me responsibilities and challenges.",
     },
 
     education: {
       field: "Education",
       content: [
         {
-          diploma: "Engineering and master's degrees in computer science",
+          diploma: "Licence degree in International Trade",
           establishment: {
-            name: "Higher National School of Computer Science – ESI",
-            webSite: "https://www.esi.dz/",
+            name: "Hassiba ben Bouali University, Chlef",
+            webSite: "https://www.univ-chlef.dz/uc/",
           },
-          address: "Algiers, Algeria",
+          address: "Chlef, Algeria",
           period: {
             from: "09/2016",
-            to: "08/2022",
+            to: "06/2020",
           },
-          graduationMention: {
-            field: "Graduation Mention",
-            content: "Very Good",
+        },
+        {
+          diploma: "Bachelor's degree in Technical Math (Civil Engineering)",
+          establishment: {
+            name: "High School 11 December, Tissemsilt",
+            webSite: "",
           },
-          studiedModules: {
-            field: "Studied Modules",
-            content: [
-              "Data Structures and Algorithms with C",
-              "Linear algebra, mathematical analysis, probability and statistics",
-              "Object-Oriented Programming with Java",
-              "Advanced databases with SQL",
-              "Networking",
-              "Data Analysis and Artificial Intelligence",
-            ],
+          address: "Tissemsilt, Algeria",
+          period: {
+            from: "09/2015",
+            to: "08/2016",
           },
         },
       ],
     },
 
     professionalExperiences: {
-      field: "Professional Experiences",
+      field: "Professional experience",
       content: [
         {
-          experience:
-            "Elaboration of the end-of-study project to obtain the Engineering diploma",
+          experience: "Commercial delegate",
           establishment: {
-            name: "LCSI Laboratory – ESI",
-            webSite: "http://lcsi.esi.dz/",
+            name: "Groupe Pharma ouest El Hachemi Pharm",
+            webSite:
+              "https://www.facebook.com/people/Groupe-Pharma-ouest-El-Hachemi-Pharm/100030003943821/",
           },
-          address: "Algiers, Algeria",
+          address: "Oran, Algeria",
           period: {
-            from: "10/2021",
-            to: "08/2022",
+            from: "02/2023",
+            to: "current time",
           },
-          description:
-            'The subject of the project was: "The reproduction of chess playing styles using deep reinforcement learning from demonstrations with MLP and CNN networks".',
+          description: "",
         },
         {
-          experience: "Elaboration of the Master's thesis",
+          experience: "Shop manager",
           establishment: {
-            name: "LCSI Laboratory – ESI",
-            webSite: "http://lcsi.esi.dz/",
-          },
-          address: "Algiers, Algeria",
-          period: {
-            from: "10/2021",
-            to: "03/2022",
-          },
-          description:
-            'The subject of the thesis was: "Study of neural architectures for human brain cloning, application to chess engines".',
-        },
-        {
-          experience: "Discovery internship in a professional environment",
-          establishment: {
-            name: "Telecom Algeria",
-            webSite: "https://www.algerietelecom.dz/",
+            name: "Cevital",
+            webSite: "http://www.cevital.com/",
           },
           address: "Chlef, Algeria",
           period: {
-            from: "09/2019",
-            to: "10/2019",
+            from: "12/2022",
+            to: "02/2023",
           },
-          description:
-            "It was a discovery internship in a professional environment at the maintenance center of the access network of Telecom Algeria.",
+          description: "",
         },
-      ],
-    },
-
-    certificates: {
-      field: "Certificates",
-      content: [
         {
-          title: "Neural Networks and Deep Learning",
-          offeredBy: {
-            name: "Coursera",
-            webSite: "https://www.coursera.org/",
+          experience: "Bursar's assistant",
+          establishment: {
+            name: "Mirador Palace Hotel",
+            webSite: "https://miradorpalace.com/",
           },
-          date: "07/2021",
+          address: "Chlef, Algeria",
+          period: {
+            from: "04/2021",
+            to: "05/2021",
+          },
           description:
-            "A non-credit online course licensed by DeepLearning.AI and offered through Coursera.",
-          certificateLink:
-            "https://www.coursera.org/account/accomplishments/certificate/9P7G57GN7UYD",
+            "As an assistant bursar at the Mirador Palace Hotel, I was responsible for the shop. During this experience, I had the pleasure to discover and master the Hotex programme.",
+        },
+        {
+          experience:
+            "Final internship for the degree of Licence in International Trade",
+          establishment: {
+            name: "Port of Tenes",
+            webSite: "",
+          },
+          address: "Chlef, Algeria",
+          period: {
+            from: "03/2019",
+            to: "05/2019",
+          },
+          description:
+            "The internship consisted of a study of all export and import operations at the port of Tenes.",
         },
       ],
     },
@@ -127,283 +115,24 @@ export const informations = {
       field: "Skills",
       content: [
         {
-          title: "Object-Oriented Programming (OOP)",
+          title: "Great listening skills",
           details: [],
         },
         {
-          title: "Problem-solving",
+          title: "Leadership",
           details: [],
         },
         {
-          title: "Front-End Developement",
-          details: [
-            {
-              name: "HTML",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-W2DEFXIY",
-            },
-            {
-              name: "JSX",
-              certificateLink: "",
-            },
-            {
-              name: "CSS",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-            },
-            {
-              name: "Javascript (ES6)",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-BAG360B8",
-            },
-            {
-              name: "React JS",
-              certificateLink: "",
-            },
-            {
-              name: "Redux",
-              certificateLink: "",
-            },
-            {
-              name: "Consume REST APIs",
-              certificateLink: "",
-            },
-            {
-              name: "npm",
-              certificateLink: "",
-            },
-          ],
-        },
-        {
-          title: "Back-End Developement",
-          details: [
-            {
-              name: "Node",
-              certificateLink: "",
-            },
-            {
-              name: "Express JS",
-              certificateLink: "",
-            },
-          ],
-        },
-        {
-          title: "Git & Github",
+          title: "Organization",
           details: [],
         },
         {
-          title: "Databases",
-          details: [
-            {
-              name: "Mysql",
-              certificateLink: "",
-            },
-            {
-              name: "SQL Server",
-              certificateLink: "",
-            },
-            {
-              name: "MongoDB",
-              certificateLink: "",
-            },
-          ],
+          title: "Respect of others and empathy",
+          details: [],
         },
         {
-          title: "Artificial intelligence",
-          details: [
-            {
-              name: "Deep Learning",
-              certificateLink:
-                "https://www.coursera.org/account/accomplishments/certificate/9P7G57GN7UYD",
-            },
-            {
-              name: "CNN",
-              certificateLink: "",
-            },
-            {
-              name: "Deep Reinforcement Learning",
-              certificateLink: "",
-            },
-            {
-              name: "Python",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-MQ1ZI8TT",
-            },
-          ],
-        },
-        {
-          title: "Programming languages and tools",
-          details: [
-            {
-              name: "Javascript (ES6)",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-BAG360B8",
-            },
-            {
-              name: "Node",
-              certificateLink: "",
-            },
-            {
-              name: "Python",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-MQ1ZI8TT",
-            },
-            {
-              name: "C",
-              certificateLink: "",
-            },
-            {
-              name: "C#",
-              certificateLink: "",
-            },
-            {
-              name: "WPF",
-              certificateLink: "",
-            },
-            {
-              name: "Unity 3D",
-              certificateLink: "",
-            },
-            {
-              name: "Java",
-              certificateLink: "",
-            },
-          ],
-        },
-        {
-          title: "Art & Design",
-          details: [
-            {
-              name: "Pencil drawing",
-              certificateLink: "",
-            },
-            {
-              name: "Adobe Illustrator",
-              certificateLink: "",
-            },
-            {
-              name: "Adobe Photoshop",
-              certificateLink: "",
-            },
-            {
-              name: "Adobe Xd",
-              certificateLink: "",
-            },
-          ],
-        },
-      ],
-    },
-
-    projects: {
-      field: "Projects",
-      content: [
-        {
-          title: "Web application for dairy production management",
-          date: "12/2022",
-          description:
-            "The project consisted of creating an internal website in Arabic (creating the UI design of the site, then coding it) to manage the daily operations of a milk production company. This project was a test to get a job as a fullstack developer in the software development agency OMRAN SOFTWARE.",
-          tools: [
-            {
-              name: "React JS",
-              certificateLink: "",
-            },
-            {
-              name: "Redux",
-              certificateLink: "",
-            },
-            {
-              name: "CSS",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-            },
-            {
-              name: "Consume REST API",
-              certificateLink: "",
-            },
-            {
-              name: "Node",
-              certificateLink: "",
-            },
-            {
-              name: "Express JS",
-              certificateLink: "",
-            },
-            {
-              name: "Adobe Illustrator",
-              certificateLink: "",
-            },
-          ],
-          link: "https://github.com/abdelkadir-bouziane/milk-production-management-application",
-        },
-        {
-          title:
-            "A web application to show informations about all countries in the world",
-          date: "11/2022",
-          description:
-            'It is a solution to the "REST Countries API with color theme switcher" challenge on Frontend Mentor website.',
-          tools: [
-            {
-              name: "React JS",
-              certificateLink: "",
-            },
-            {
-              name: "Javascript (ES6)",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-BAG360B8",
-            },
-            {
-              name: "JSX",
-              certificateLink: "",
-            },
-            {
-              name: "CSS",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-            },
-            {
-              name: "Consume REST API",
-              certificateLink: "",
-            },
-          ],
-          link: "https://github.com/abdelkadir-bouziane/rest-countries-api",
-        },
-        {
-          title: "SOROBAN desktop application",
-          date: "2019",
-          description:
-            "Creation of an application to generate tests for the different levels of the Japanese SOROBAN training.",
-          tools: [
-            {
-              name: "C#",
-              certificateLink: "",
-            },
-            {
-              name: "WPF",
-              certificateLink: "",
-            },
-          ],
-          link: "",
-        },
-        {
-          title: "Stock management desktop application",
-          date: "2018",
-          description:
-            "Creation of a desktop application for the management of pharmaceutical products.",
-          tools: [
-            {
-              name: "C#",
-              certificateLink: "",
-            },
-            {
-              name: "WPF",
-              certificateLink: "",
-            },
-            {
-              name: "SQL Server",
-              certificateLink: "",
-            },
-          ],
-          link: "",
+          title: "First aid training",
+          details: [],
         },
       ],
     },
@@ -412,74 +141,84 @@ export const informations = {
       field: "Languages",
       content: [
         {
-          language: "Arabic",
-          certificateLink: "",
-        },
-        {
           language: "French",
-          certificateLink:
-            "https://drive.google.com/file/d/1sgz6YRpLeDBq8heoXejd748zoqN6HKKs/view?usp=sharing",
+          certificateLink: "",
         },
         {
           language: "English",
           certificateLink: "",
+        },
+        {
+          language: "Arabic",
+          certificateLink: "",
+        },
+      ],
+    },
+
+    personalInformation: {
+      field: "Personal information",
+      content: [
+        {
+          field: "Birth",
+          value: "17/02/1998 in Chlef",
+        },
+        {
+          field: "Marital status",
+          value: "Single",
+        },
+        {
+          field: "Nationality",
+          value: "Algerian",
         },
       ],
     },
   },
 
   french: {
-    firstName: "Abdelkadir",
-    familyName: "Bouziane",
+    firstName: "Seyyidahmed",
+    familyName: "Bouralia",
 
     contact: {
       address: "Chlef, Algérie",
-      phone: "+213795081867",
-      email: "ga_bouziane@esi.dz",
-      github: {
-        userName: "abdelkadir-bouziane",
-        link: "https://github.com/abdelkadir-bouziane",
-      },
+      phone: "+213663905402",
+      email: "Sidoguns@gmail.com",
       linkedin: {
-        userName: "Abdelkadir Bouziane",
-        link: "https://www.linkedin.com/in/abdelkadir-bouziane-2a7a37205/",
+        userName: "Seyyidahmed Bouralia",
+        link: "https://www.linkedin.com/in/seyyidahmed-bouralia-80597b161/",
       },
     },
 
-    profile: {
-      field: "Profil",
+    objectif: {
+      field: "Objectif",
       content:
-        "Développeur web Frontend avec React JS. Dynamique et motivé. Passionné par tout ce qui touche au développement web.",
+        "Améliorer mes compétences professionnelles, mes capacités et mes connaissances dans une organisation qui reconnaît la valeur du travail acharné et qui me confie des responsabilités et des défis.",
     },
 
     education: {
       field: "Éducation",
       content: [
         {
-          diploma: "Diplômes d'ingénieur d'état et de master en informatique",
+          diploma: "Licence en Commerce International",
           establishment: {
-            name: "École nationale supérieure d'informatique - ESI",
-            webSite: "https://www.esi.dz/",
+            name: "Université Hassiba ben bouali, Chlef",
+            webSite: "https://www.univ-chlef.dz/uc/",
           },
-          address: "Alger, Algérie",
+          address: "Chlef, Algérie",
           period: {
             from: "09/2016",
-            to: "08/2022",
+            to: "06/2020",
           },
-          graduationMention: {
-            field: "Mention de fin d'études",
-            content: "Très bien",
+        },
+        {
+          diploma: "Baccalauréat en Maths techniques (génie civil)",
+          establishment: {
+            name: "Lycée 11 décembre, Tissemsilt",
+            webSite: "",
           },
-          studiedModules: {
-            field: "Modules étudiés",
-            content: [
-              "Structures de données et algorithmes avec C",
-              "Algèbre linéaire, analyse mathématique, probabilité et statistiques",
-              "Programmation orientée objet avec Java",
-              "Bases de données avancées avec SQL",
-              "Réseaux informatiques",
-              "Analyse des données et intelligence artificielle",
-            ],
+          address: "Tissemsilt, Algérie",
+          period: {
+            from: "09/2015",
+            to: "08/2016",
           },
         },
       ],
@@ -489,65 +228,60 @@ export const informations = {
       field: "Expériences professionnelles",
       content: [
         {
-          experience:
-            "Elaboration du projet de fin d'études pour l'obtention du diplôme d'Ingénieur d'État",
+          experience: "Délégué commercial",
           establishment: {
-            name: "Laboratoire LCSI - ESI",
-            webSite: "http://lcsi.esi.dz/",
+            name: "Groupe Pharma ouest El Hachemi Pharm",
+            webSite:
+              "https://www.facebook.com/people/Groupe-Pharma-ouest-El-Hachemi-Pharm/100030003943821/",
           },
-          address: "Alger, Algérie",
+          address: "Oran, Algérie",
           period: {
-            from: "10/2021",
-            to: "08/2022",
+            from: "02/2023",
+            to: "temps actuel",
           },
-          description:
-            "Le sujet du projet était : \"La reproduction des styles de jeu d'échecs en utilisant l'apprentissage par renforcement profond à partir de démonstrations avec des réseaux MLPs et CNNs\".",
+          description: "",
         },
         {
-          experience: "Élaboration de la thèse du Master",
+          experience: "Responsable de magasin",
           establishment: {
-            name: "Laboratoire LCSI - ESI",
-            webSite: "http://lcsi.esi.dz/",
-          },
-          address: "Alger, Algérie",
-          period: {
-            from: "10/2021",
-            to: "03/2022",
-          },
-          description:
-            'Le sujet de la thèse était : "Étude des architectures neuronales pour le clonage du cerveau humain, application aux moteurs d\'échecs".',
-        },
-        {
-          experience: "Stage de découverte dans un environnement professionnel",
-          establishment: {
-            name: "Algérie Télécom ",
-            webSite: "https://www.algerietelecom.dz/",
+            name: "Cevital",
+            webSite: "http://www.cevital.com/",
           },
           address: "Chlef, Algérie",
           period: {
-            from: "09/2019",
-            to: "10/2019",
+            from: "12/2022",
+            to: "02/2023",
           },
-          description:
-            "Il s'agissait d'un stage de découverte dans un environnement professionnel au centre de maintenance du réseau d'accès d'Algérie Télécom.",
+          description: "",
         },
-      ],
-    },
-
-    certificates: {
-      field: "Certificats",
-      content: [
         {
-          title: "Réseaux neuronaux et apprentissage profond",
-          offeredBy: {
-            name: "Coursera",
-            webSite: "https://www.coursera.org/",
+          experience: "Assistant d'économe",
+          establishment: {
+            name: "Hôtel Mirador Palace",
+            webSite: "https://miradorpalace.com/",
           },
-          date: "07/2021",
+          address: "Chlef, Algérie",
+          period: {
+            from: "04/2021",
+            to: "05/2021",
+          },
           description:
-            "Un cours en ligne sans crédit, sous licence de DeepLearning.AI et offert par Coursera.",
-          certificateLink:
-            "https://www.coursera.org/account/accomplishments/certificate/9P7G57GN7UYD",
+            "En tant qu'assistant d'économe à l'hôtel Mirador Palace, j'étais responsable du magasin. Au cours de cette expérience, j'ai eu le plaisir de découvrir et maîtriser le programme Hotex.",
+        },
+        {
+          experience:
+            "Stage de fin d'études en vue de l'obtention du diplôme de Licence en Commerce International",
+          establishment: {
+            name: "Port de Tenes",
+            webSite: "",
+          },
+          address: "Chlef, Algérie",
+          period: {
+            from: "03/2019",
+            to: "05/2019",
+          },
+          description:
+            "Le stage portait sur l'étude de toutes les opérations d'exportation et d'importation au port de Tenes.",
         },
       ],
     },
@@ -556,283 +290,24 @@ export const informations = {
       field: "Compétences",
       content: [
         {
-          title: "Programmation orientée objet (POO)",
+          title: "Grande capacité d'écoute",
           details: [],
         },
         {
-          title: "Résolution de problèmes",
+          title: "Leadership",
           details: [],
         },
         {
-          title: "Développement web Front-End",
-          details: [
-            {
-              name: "HTML",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-W2DEFXIY",
-            },
-            {
-              name: "JSX",
-              certificateLink: "",
-            },
-            {
-              name: "CSS",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-            },
-            {
-              name: "Javascript (ES6)",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-BAG360B8",
-            },
-            {
-              name: "React JS",
-              certificateLink: "",
-            },
-            {
-              name: "Redux",
-              certificateLink: "",
-            },
-            {
-              name: "Consume REST APIs",
-              certificateLink: "",
-            },
-            {
-              name: "npm",
-              certificateLink: "",
-            },
-          ],
-        },
-        {
-          title: "Développement web Back-End",
-          details: [
-            {
-              name: "Node",
-              certificateLink: "",
-            },
-            {
-              name: "Express JS",
-              certificateLink: "",
-            },
-          ],
-        },
-        {
-          title: "Git & Github",
+          title: "Organisation",
           details: [],
         },
         {
-          title: "Bases de données",
-          details: [
-            {
-              name: "Mysql",
-              certificateLink: "",
-            },
-            {
-              name: "SQL Server",
-              certificateLink: "",
-            },
-            {
-              name: "MongoDB",
-              certificateLink: "",
-            },
-          ],
+          title: "Respect des autres et empathie",
+          details: [],
         },
         {
-          title: "Intelligence artificielle",
-          details: [
-            {
-              name: "Apprentissage profond",
-              certificateLink:
-                "https://www.coursera.org/account/accomplishments/certificate/9P7G57GN7UYD",
-            },
-            {
-              name: "CNN",
-              certificateLink: "",
-            },
-            {
-              name: "Apprentissage par renforcement profond",
-              certificateLink: "",
-            },
-            {
-              name: "Python",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-MQ1ZI8TT",
-            },
-          ],
-        },
-        {
-          title: "Langages et outils de programmation",
-          details: [
-            {
-              name: "Javascript (ES6)",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-BAG360B8",
-            },
-            {
-              name: "Node",
-              certificateLink: "",
-            },
-            {
-              name: "Python",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-MQ1ZI8TT",
-            },
-            {
-              name: "C",
-              certificateLink: "",
-            },
-            {
-              name: "C#",
-              certificateLink: "",
-            },
-            {
-              name: "WPF",
-              certificateLink: "",
-            },
-            {
-              name: "Unity 3D",
-              certificateLink: "",
-            },
-            {
-              name: "Java",
-              certificateLink: "",
-            },
-          ],
-        },
-        {
-          title: "Art et Design",
-          details: [
-            {
-              name: "Dessin au crayon",
-              certificateLink: "",
-            },
-            {
-              name: "Adobe Illustrator",
-              certificateLink: "",
-            },
-            {
-              name: "Adobe Photoshop",
-              certificateLink: "",
-            },
-            {
-              name: "Adobe Xd",
-              certificateLink: "",
-            },
-          ],
-        },
-      ],
-    },
-
-    projects: {
-      field: "Projets",
-      content: [
-        {
-          title: "Application web pour la gestion de la production laitière",
-          date: "12/2022",
-          description:
-            "Le projet consistait à créer un site web interne en arabe (création du design UI du site, puis codage) pour gérer les opérations quotidiennes d'une entreprise de production de lait. Ce projet était un test pour obtenir un emploi en tant que développeur fullstack dans l'agence de développement de logiciels OMRAN SOFTWARE.",
-          tools: [
-            {
-              name: "React JS",
-              certificateLink: "",
-            },
-            {
-              name: "Redux",
-              certificateLink: "",
-            },
-            {
-              name: "CSS",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-            },
-            {
-              name: "Consommation d'API REST",
-              certificateLink: "",
-            },
-            {
-              name: "Node",
-              certificateLink: "",
-            },
-            {
-              name: "Express JS",
-              certificateLink: "",
-            },
-            {
-              name: "Adobe Illustrator",
-              certificateLink: "",
-            },
-          ],
-          link: "https://github.com/abdelkadir-bouziane/milk-production-management-application",
-        },
-        {
-          title:
-            "Une application web pour montrer des informations sur tous les pays du monde.",
-          date: "11/2022",
-          description:
-            "Il s'agit d'une solution au défi \"REST Countries API with color theme switcher\" sur le site Web Frontend Mentor.",
-          tools: [
-            {
-              name: "React JS",
-              certificateLink: "",
-            },
-            {
-              name: "Javascript (ES6)",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-BAG360B8",
-            },
-            {
-              name: "JSX",
-              certificateLink: "",
-            },
-            {
-              name: "CSS",
-              certificateLink:
-                "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-            },
-            {
-              name: "Consommation d'API REST",
-              certificateLink: "",
-            },
-          ],
-          link: "https://github.com/abdelkadir-bouziane/rest-countries-api",
-        },
-        {
-          title: "Application de bureau SOROBAN",
-          date: "2019",
-          description:
-            "Création d'une application permettant de générer des tests pour les différents niveaux de la formation japonaise SOROBAN.",
-          tools: [
-            {
-              name: "C#",
-              certificateLink: "",
-            },
-            {
-              name: "WPF",
-              certificateLink: "",
-            },
-          ],
-          link: "",
-        },
-        {
-          title: "Application de bureau pour la gestion des stocks",
-          date: "2018",
-          description:
-            "Création d'une application de bureau pour la gestion des produits pharmaceutiques.",
-          tools: [
-            {
-              name: "C#",
-              certificateLink: "",
-            },
-            {
-              name: "WPF",
-              certificateLink: "",
-            },
-            {
-              name: "SQL Server",
-              certificateLink: "",
-            },
-          ],
-          link: "",
+          title: "Formation aux premiers secours",
+          details: [],
         },
       ],
     },
@@ -841,17 +316,34 @@ export const informations = {
       field: "Languages",
       content: [
         {
-          language: "Arabe",
-          certificateLink: "",
-        },
-        {
           language: "Français",
-          certificateLink:
-            "https://drive.google.com/file/d/1sgz6YRpLeDBq8heoXejd748zoqN6HKKs/view?usp=sharing",
+          certificateLink: "",
         },
         {
           language: "Anglais",
           certificateLink: "",
+        },
+        {
+          language: "Arabe",
+          certificateLink: "",
+        },
+      ],
+    },
+
+    personalInformation: {
+      field: "Informations personnelles",
+      content: [
+        {
+          field: "Naissance",
+          value: "17/02/1998 à Chlef",
+        },
+        {
+          field: "État civil",
+          value: "Célibataire",
+        },
+        {
+          field: "Nationalité",
+          value: "Algérienne",
         },
       ],
     },

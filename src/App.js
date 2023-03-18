@@ -2,7 +2,7 @@ import { ThemeProvider } from "styled-components";
 import HeaderBar from "./components/HeaderBar";
 import { ResumeTemplate1 } from "./components/resumeTemplates/ResumeTemplate1";
 import { informations } from "./informations";
-import photo from "./my_photo.jpg";
+import photo from "./images/seyyidahmed.jpg";
 import { useState, useRef } from "react";
 import { themes } from "./themes";
 import GlobalStyles from "./GlobalStyles";

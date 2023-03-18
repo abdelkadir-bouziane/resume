@@ -206,10 +206,12 @@ main {
 /* Styling the Profile component */
 
 .profile,
+.objectif,
 .education,
 .experiences,
 .certificates,
 .skills,
+.personalInformation,
 .projects,
 .languages {
   margin: 5rem 0;
@@ -220,10 +222,12 @@ main {
 }
 
 .profile h2,
+.objectif h2,
 .education h2,
 .experiences h2,
 .certificates h2,
 .skills h2,
+.personalInformation h2,
 .projects h2,
 .languages h2 {
   font-size: 2.1rem;
@@ -233,6 +237,7 @@ main {
 }
 
 .profile p,
+.objectif p,
 .education .education-item,
 .experiences p,
 .certificates p,
@@ -320,7 +325,8 @@ main {
 }
 
 .modules li,
-.skills li {
+.skills li,
+.personalInformation li {
   margin: 1rem 0 0 3rem;
 }
 

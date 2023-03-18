@@ -1,12 +1,11 @@
 import React from "react";
 import Name from "../Name";
 import Contact from "../Contact";
-import Profile from "../Profile";
+import Objectif from "../Objectif";
 import Education from "../Education";
 import ProfessionalExperiences from "../ProfessionalExperiences";
-import Certificates from "../Certificates";
 import Skills from "../Skills";
-import Projects from "../Projects";
+import PersonalInformation from "../PersonalInformation";
 import Languages from "../Languages";
 
 const getPageMargins = () => {
@@ -24,15 +23,19 @@ export const ResumeTemplate1 = React.forwardRef((props, ref) => {
           photo={props.photo}
         />
         <Contact contactInfos={props.informations.contact} />
-        <Profile profileInfo={props.informations.profile} />
-        <Education educationInfos={props.informations.education} />
+
+        <Objectif objectifInfo={props.informations.objectif} itemNum="1" />
+        <Education educationInfos={props.informations.education} itemNum="2" />
         <ProfessionalExperiences
           experiencesInfos={props.informations.professionalExperiences}
+          itemNum="3"
         />
-        <Certificates certificatesInfos={props.informations.certificates} />
-        <Skills skillsInfos={props.informations.skills} />
-        <Projects projectsInfos={props.informations.projects} />
-        <Languages languagesInfos={props.informations.languages} />
+        <Skills skillsInfos={props.informations.skills} itemNum="4" />
+        <Languages languagesInfos={props.informations.languages} itemNum="5" />
+        <PersonalInformation
+          personalInformation={props.informations.personalInformation}
+          itemNum="6"
+        />
       </div>
     </main>
   );

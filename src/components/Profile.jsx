@@ -1,7 +1,7 @@
-function Profile({ profileInfo }) {
+function Profile({ profileInfo, itemNum }) {
   return (
     <article className="profile">
-      <h2>1. {profileInfo.field}</h2>
+      <h2>{itemNum}. {profileInfo.field}</h2>
       <p>{profileInfo.content}</p>
     </article>
   );

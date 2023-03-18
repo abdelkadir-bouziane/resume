@@ -1,7 +1,7 @@
-function Certificates({ certificatesInfos }) {
+function Certificates({ certificatesInfos, itemNum }) {
   return (
     <article className="certificates">
-      <h2>4. {certificatesInfos.field}</h2>
+      <h2>{itemNum}. {certificatesInfos.field}</h2>
       {certificatesInfos.content.map((certificateItem, index) => (
         <div key={index} className="certificate-item">
           <div className="head">

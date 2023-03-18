@@ -1,16 +1,25 @@
-function ProfessionalExperiences({ experiencesInfos }) {
+function ProfessionalExperiences({ experiencesInfos, itemNum }) {
   return (
     <article className="experiences">
-      <h2>3. {experiencesInfos.field}</h2>
+      <h2>
+        {itemNum}. {experiencesInfos.field}
+      </h2>
       {experiencesInfos.content.map((experienceItem, index) => (
         <div key={index} className="experience-item">
           <div className="head">
             <div className="experience-establishment">
               <h3>{experienceItem.experience}</h3>
               <h4>
-                <a href={experienceItem.establishment.webSite} target="_blanc">
-                  {experienceItem.establishment.name}
-                </a>
+                {experienceItem.establishment.webSite ? (
+                  <a
+                    href={experienceItem.establishment.webSite}
+                    target="_blanc"
+                  >
+                    {experienceItem.establishment.name}
+                  </a>
+                ) : (
+                  <span>{experienceItem.establishment.name}</span>
+                )}
               </h4>
             </div>
 
@@ -21,7 +30,7 @@ function ProfessionalExperiences({ experiencesInfos }) {
             </div>
           </div>
 
-          <p>{experienceItem.description}</p>
+          {experienceItem.description && <p>{experienceItem.description}</p>}
         </div>
       ))}
     </article>

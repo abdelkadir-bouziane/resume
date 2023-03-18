@@ -1,7 +1,7 @@
-function Skills({ skillsInfos }) {
+function Skills({ skillsInfos, itemNum }) {
   return (
     <article className="skills">
-      <h2>5. {skillsInfos.field}</h2>
+      <h2>{itemNum}. {skillsInfos.field}</h2>
       <ul>
         {skillsInfos.content.map((skillsItem, index) => (
           <li key={index} className="skill-item">
