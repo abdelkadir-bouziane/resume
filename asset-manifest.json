@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/my-resume/static/js/main.9ef82e53.js",
-    "static/media/seyyidahmed.jpg": "/my-resume/static/media/seyyidahmed.2e3836eab27d94870b6e.jpg",
-    "index.html": "/my-resume/index.html",
-    "main.9ef82e53.js.map": "/my-resume/static/js/main.9ef82e53.js.map"
+    "main.js": "/resume/static/js/main.cd7cf13c.js",
+    "static/media/seyyidahmed.jpg": "/resume/static/media/seyyidahmed.2e3836eab27d94870b6e.jpg",
+    "index.html": "/resume/index.html",
+    "main.cd7cf13c.js.map": "/resume/static/js/main.cd7cf13c.js.map"
   },
   "entrypoints": [
-    "static/js/main.9ef82e53.js"
+    "static/js/main.cd7cf13c.js"
   ]
 }
