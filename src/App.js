@@ -9,7 +9,7 @@ import GlobalStyles from "./GlobalStyles";
 import { useReactToPrint } from "react-to-print";
 
 function App() {
-  const [language, setLanguage] = useState("english");
+  const [language, setLanguage] = useState("french");
   const [theme, setTheme] = useState("light");
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
